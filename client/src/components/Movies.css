@@ -1,0 +1,45 @@
+
+.upcoming-movies-list {
+ 
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 2em;
+    margin-left:4rem;
+    margin-top:1rem;
+    justify-content:center;
+}
+
+.upcoming-movies-list .movie-img{
+  display:flex;
+  align-items:center;
+  flex-direction: column;
+  max-width:100%;
+}
+.upcoming-movies-list .movie-img a{
+   display:inline;
+   text-decoration:none;
+   color:#565150;
+   font-weight:bold;
+  
+   
+}
+
+.upcoming-movies-list .movie-img span{
+
+   text-decoration:none;
+   color:#565150;
+   font-weight:bold;
+   margin-right:10rem;
+}
+
+.upcoming h2{
+    margin-top:2rem;
+    margin-left:3rem;
+    font-weight:lighter;
+    color:#f55024;
+
+}
+
+.upcoming .release-date{
+    margin-left:1.5rem;
+}
